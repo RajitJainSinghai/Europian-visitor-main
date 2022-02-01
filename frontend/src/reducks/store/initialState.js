@@ -1,10 +1,16 @@
-const initialState = {
-    posts: {
-        results: [],
-        count: 0,
-        next: null,
-        previous: null
-    }
+const initialState = { 
+    places: {
+        list: []
+    },
+    categories: {
+        list: [],
+      },
+      favourites: {
+        list: [],
+      },
+    
+    
 };
 
-export default initialState;
+
+export default initialState

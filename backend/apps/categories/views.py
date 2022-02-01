@@ -1,4 +1,3 @@
-
 from rest_framework import generics, filters
 from .serializers import CategorySerializer
 from .models import Category

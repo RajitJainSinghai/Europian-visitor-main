@@ -1,20 +1,18 @@
-import React from 'react';
-import { Route, Switch } from 'react-router';
-import Home from './containers/Home.jsx';
-import Favourite from './containers/Favourite.jsx';
-import Map from './containers/Map.jsx';
-import Detail from './containers/Detail.jsx';
+import React from "react";
+import { Route, Switch } from "react-router";
+import Favourites from "./containers/Favourites";
+import Home from "./containers/Home";
+import Places from "./containers/Places";
 
 const Router = () => {
-    return (
-        <>
-            <Switch>
-                <Route exact path={'/'} component={Home} />
-                <Route exact path={'/favourite'} component={Favourite} />
-                <Route exact path={'/map'} component={Map} />
-                <Route exact path={'/detail'} component={Detail} />
-            </Switch>
-        </>
-    );
+  return (
+    <>
+      <Switch>
+        <Route exact path={"/"} component={Home} />
+        <Route exact path={"/favourites"} component={Favourites} />
+        <Route exact path={"/places"} component={Places} />
+      </Switch>
+    </>
+  );
 };
 export default Router;
