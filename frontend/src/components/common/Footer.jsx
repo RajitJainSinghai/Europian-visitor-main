@@ -9,7 +9,7 @@ function Footer() {
             <li class="footer-li">Quick-link</li>
 
             <li>Home</li>
-            <li>Thing to do</li>
+            <li>Wonder in Europe</li>
             <li>Tourist Attraction</li>
             <li>favourite</li>
           </ul>
@@ -17,13 +17,14 @@ function Footer() {
         <div class="address">
           <p class="heading-para1">Address</p>
           <p class="sub-heading-para">
-            14, 1 Ellis bridge ST, auckland 3500, Ethiopia +15 9900 990 009
-            contactus@ethiopia.com
+            14, 1 Ellis bridge ST, auckland 3500, Europe +15 9900 990 009
+            contactus@Europe-visit.com
           </p>
         </div>
         <div class="email-footer">
           <p>Subscribe our news-letter</p>
           <input class="email" type="text" placeholder="Your email" />
+          <button class="button-subscribe">Subscribe</button>
         </div>
         <hr class="hr-tag" />
         <center>

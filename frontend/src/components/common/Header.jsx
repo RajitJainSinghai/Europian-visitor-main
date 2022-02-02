@@ -24,10 +24,10 @@ const Header = () => {
             <a onClick={() => dispatch(push("/"))} class="home">
               HOME
             </a>
-            <a onClick={() => dispatch(push("/"))} class="home">
+            <a href="#Natural" class="home">
               WONDERS IN EUROPE
             </a>
-            <a onClick={() => dispatch(push("/"))} class="home">
+            <a href="#Tourist" class="home">
               TOURIST ATTRACTION
             </a>
 

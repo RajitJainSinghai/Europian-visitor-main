@@ -23,7 +23,7 @@ const Search = () => {
           name="search"
           type="inputbox"
           onChange={inputSearch}
-          placeholder="Search for best places to Visit in Ethiopia"
+          placeholder="Search for best places to Visit in Europe"
         />
       </form>
       <a onclick={() => console.log("test")}>
