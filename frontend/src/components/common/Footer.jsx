@@ -1,6 +1,10 @@
 import React from "react";
+import { push } from "connected-react-router";
+import { useDispatch } from "react-redux";
 
 function Footer() {
+  const dispatch = useDispatch();
+
   return (
     <>
       <footer>
@@ -8,10 +12,18 @@ function Footer() {
           <ul class="footer-ul">
             <li class="footer-li">Quick-link</li>
 
-            <li>Home</li>
-            <li>Wonder in Europe</li>
-            <li>Tourist Attraction</li>
-            <li>favourite</li>
+            <a class="footer-links" href="#">
+              <li>Home</li>
+            </a>
+            <a class="footer-links" href="#Natural">
+              <li>Wonder in Europe</li>
+            </a>
+            <a class="footer-links" href="#Tourist">
+              <li>Tourist Attraction</li>
+            </a>
+            <a onClick={() => dispatch(push("/favourites"))}>
+              <li>favourite</li>
+            </a>
           </ul>
         </div>
         <div class="address">

@@ -110,9 +110,10 @@ Section1
   cursor: pointer;
 }
 .section1 .gridcontent p {
-  color: rgb(22, 2, 92);
-  padding: 10px;
+  color: rgb(24 92 2 / 88%);
+  /* padding: 10px; */
   text-align: center;
+  font-size: 25px;
 }
 .section1 .gallery {
   margin: 0 auto;
@@ -1112,4 +1113,8 @@ img.close-button {
     top: 139px;
     right: 58px;
   }
+}
+a.footer-links {
+  color: white;
+  text-decoration: none;
 }

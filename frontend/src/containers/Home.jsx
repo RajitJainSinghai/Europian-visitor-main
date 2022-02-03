@@ -48,6 +48,7 @@ const Home = () => {
           {categories.map((category) => (
             <GridContent key={category.id} category={category} />
           ))}
+          <p>{categories.name}</p>
         </div>
         <div id="Natural" class="heading1">
           Natural Wonders in Europe

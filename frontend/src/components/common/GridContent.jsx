@@ -10,7 +10,7 @@ const GridContent = ({ category }) => {
       onClick={() => dispatch(push("/places?category=" + category.id))}
     >
       <img src={category.image} alt="" />
-      {/* <p>{category.name}</p> */}
+      <p>{category.name}</p>
     </div>
   );
 };
